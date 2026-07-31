@@ -6,7 +6,6 @@ function Footer() {
         <li>About</li>
         <li>Skills</li>
         <li>Projects</li>
-        <li>Experiences</li>
         <li>Contacts</li>
       </ul>
     </footer>

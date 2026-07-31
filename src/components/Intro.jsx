@@ -1,4 +1,6 @@
 import dp from "../assets/dp.png"
+import Githubicon from "./icons/Githubicon.jsx"
+import LinkedInicon from "./icons/LinkedInicon.jsx"
 function Intro() {
   let greet = "Hi there 👋🏼";
   let info = "A BCA student.";
@@ -8,6 +10,10 @@ function Intro() {
       <p className="text-3xl md:text-5xl lg:text-7xl w-screen p-4 px-6 font-semibold">{greet}</p>
       <p className="text-3xl md:text-5xl lg:text-7xl">I'm <b>Piyush Sharma</b>.</p>
       <p className="text-3xl md:text-5xl lg:text-7xl">{info}</p>
+      <div className="flex items-center justify-evenly w-full px-4">
+        <a href="https://github.com/piyushify" target="_blank"><Githubicon/></a>
+        <a href="https://www.linkedin.com/in/piyush-sharma-b7253a2a2" target="_blank"><LinkedInicon/></a>
+      </div>
     </section>
   )
 }
