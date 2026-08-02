@@ -1,13 +1,15 @@
 import Intro from "./Intro.jsx"
-import About from "./About.jsx"
+import Navigator from "./Navigator.jsx"
+import Aboutme from "./Aboutme.jsx"
 import Skills from "./Skills.jsx"
 import Projects from "./Projects.jsx"
 import Contacts from "./Contacts.jsx"
 function Main() {
   return (
-    <main className="pb-14 bg-[#f6f6f6] scroll-smooth *:text-shadow-md">
+    <main className="bg-[#f6f6f6] scroll-smooth *:text-shadow-md">
       <Intro/>
-      <About/>
+      <Navigator/>
+      <Aboutme/>
       <Skills/>
       <Projects/>
       <Contacts/>

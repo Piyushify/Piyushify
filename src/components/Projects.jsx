@@ -9,6 +9,7 @@ function Projects(){
         address="https://piyushify.github.io/safebites/"
         image={safebites}
         title="Safebites"
+        tech=" ● Html ● Css ● Javascript"
         description="It is a website intended to provide a safe eating experience by giving a hygiene rating to restaurants, hotels, cafes, etc."/>
     </section>
   )

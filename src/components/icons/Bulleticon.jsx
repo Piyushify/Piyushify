@@ -1,6 +1,6 @@
 function Bulleticon () {
   return (
-    <svg viewBox="0 -14 64.001 64.001" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 inline">
+    <svg viewBox="0 -14 64.001 64.001" xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 inline mb-1">
       <path fill="gray" d="M8.001 2H12v32H8.001z"/>
       <path d="M6 0H2a2 2 0 0 0-2 2v32a2 2 0 0 0 2 2h4a2 2 0 0 0 2.001-2V2C8.001.896 7.104 0 6 0" fill="#4d4d4d"/>
       <path d="M46.001 0h-32A2 2 0 0 0 12 2v32a2 2 0 0 0 2.001 2h32c7.731 0 18-10.269 18-18 0-7.732-10.269-18-18-18" fillRule="evenodd" clipRule="evenodd" fill="#4d4d4d"/>
