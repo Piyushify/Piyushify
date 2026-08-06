@@ -9,7 +9,7 @@ function Header() {
         <h2 className="text-xs font-semibold text-center">Growing with the flow</h2>
       </div>
       <button onClick={() => alert("clicked")}>
-        <Menuicon/>
+        <Menuicon className="fill-current w-7 h-7 backdrop-filter-md"/>
       </button>
       
     </header>

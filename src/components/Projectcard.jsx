@@ -6,11 +6,12 @@ function Projectcard({address, image, title, tech, description}){
   return (
     <ul>
       <li>
-        <article className="shadow-md rounded-3xl p-5 inset-shadow-sm">
+        <article className="shadow-md rounded-4xl overflow-hidden inset-shadow-sm">
           <a href={address} target="_blank">
-            <img src={image} className=" rounded-2xl shadow-md inset-shadow-sm"/>
+            <img src={image} className="inset-shadow-sm aspect-square"/>
           </a>
-          <h3 className="flex items-center justify-center font-bold text-xl md:text-2xl lg:text-3xl pt-4">{title}
+          <div className="p-6">
+          <h3 className="flex items-center justify-center font-bold text-xl md:text-2xl lg:text-3xl">{title}
             <button onClick={() => setshowDesc(!showDesc)}>
               <Careticon className={`transition-transform duration-300 w-5 h-5 fill-current 
               ${ showDesc ? "rotate-180" : ""}`} />
@@ -30,6 +31,7 @@ function Projectcard({address, image, title, tech, description}){
           <div className="flex justify-evenly mt-3">
             <button className="shadow-md inset-shadow-sm rounded-2xl py-2 px-3 font-bold">Visit Site</button>
             <button className="shadow-md inset-shadow-sm rounded-2xl py-2 px-3 font-bold">Github</button>
+          </div>
           </div>
           </article>
       </li>
