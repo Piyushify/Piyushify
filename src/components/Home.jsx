@@ -1,4 +1,4 @@
-import dp from "../assets/dp_smile3.png"
+import dp from "../assets/dp.webp"
 import Githubicon from "./icons/Githubicon.jsx"
 import LinkedInicon from "./icons/LinkedInicon.jsx"
 import Emailicon from "./icons/Emailicon.jsx"
@@ -6,7 +6,7 @@ function Home() {
   let greet = "Hi there 👋🏼";
   let info = "A BCA student.";
   return (
-    <section className="h-screen flex items-center flex-col justify-center p-6 pt-20">
+    <section className="h-svh flex items-center flex-col justify-center p-6 pt-20">
       <img src={dp} className="w-32 h-32 self-start rounded-full shadow-md backdrop-blur-4xl bg-current/2"/>
       <p className="text-3xl md:text-5xl lg:text-7xl w-screen py-3 px-6 font-semibold">{greet}</p>
       <p className="text-3xl md:text-5xl lg:text-7xl">I'm <b className="underline decoration-[#bb8866aa] decoration-dashed decoration-2">Piyush Sharma</b>.</p>
