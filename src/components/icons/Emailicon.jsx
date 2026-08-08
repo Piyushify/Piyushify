@@ -9,7 +9,7 @@ function EmailIcon({className}) {
         cx="225.638"
         cy="225.638"
         r="225.638"
-        className="fill-[#334D5C]"
+        className="fill-current"
       />
 
       <path
@@ -23,22 +23,22 @@ function EmailIcon({className}) {
         y="141.553"
         width="258.56"
         height="168.172"
-        className="fill-[#F6C358]"
+        className="fill-[#d69000]"
       />
 
       <polygon
         points="225.638,210.645 354.921,309.725 96.355,309.725"
-        className="fill-[#FCD462]"
+        className="fill-[#d89f00]"
       />
 
       <polygon
         points="225.638,249.791 96.355,141.552 354.921,141.552"
-        className="fill-[#DC8744]"
+        className="fill-[#e24e0c]"
       />
 
       <polygon
         points="225.638,240.631 96.355,141.552 354.921,141.552"
-        className="fill-[#FCD462]"
+        className="fill-[#d89f00]"
       />
     </svg>
   );

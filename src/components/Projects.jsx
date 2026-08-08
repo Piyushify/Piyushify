@@ -1,5 +1,5 @@
 import Projectcard from "./Projectcard.jsx"
-import safebites from "../assets/safebites.png"
+import safebites from "../assets/safebites.webp"
 
 function Projects(){
   return (
