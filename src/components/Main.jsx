@@ -4,17 +4,17 @@ import Navigator from "./Navigator.jsx"
 import Aboutme from "./Aboutme.jsx"
 import Skills from "./Skills.jsx"
 import Projects from "./Projects.jsx"
-import Contacts from "./Contacts.jsx"
+import Connect from "./Connect.jsx"
 function Main() {
   return (
-    <main className="bg-[#f6f6f6] scroll-smooth *:text-shadow-md">
+    <main className="bg-[#f6f6f6] scroll-smooth">
       <Home/>
       <Menupanel/>
       <Navigator/>
       <Aboutme/>
       <Skills/>
       <Projects/>
-      <Contacts/>
+      <Connect/>
     </main>
   )
 }

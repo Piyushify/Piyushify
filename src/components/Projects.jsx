@@ -1,15 +1,15 @@
 import Projectcard from "./Projectcard.jsx"
-import safebites from "../assets/safebites.webp"
+import SafeBites from "../assets/SafeBites.webp"
 
 function Projects(){
   return (
-    <section className="p-5">
-      <h2 className="py-6 text-center font-bold text-2xl md:text-3xl lg:text-4xl text-shadow-lg">Projects</h2>
+    <section className="p-6 flex flex-col pb-20">
+      <h2 className="pb-10 text-center font-bold text-3xl md:text-3xl lg:text-4xl text-shadow-sm">Projects</h2>
       <Projectcard 
         address="https://piyushify.github.io/safebites/"
-        image={safebites}
-        title="Safebites"
-        tech=" ● Html ● Css ● Javascript"
+        image={SafeBites}
+        title="SafeBites"
+        tech=" ● Reactjs ● Tailwindcss"
         description="It is a website intended to provide a safe eating experience by giving a hygiene rating to restaurants, hotels, cafes, etc."/>
     </section>
   )

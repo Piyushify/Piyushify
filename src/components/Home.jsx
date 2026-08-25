@@ -6,12 +6,12 @@ function Home() {
   let greet = "Hi there 👋🏼";
   let info = "A BCA student.";
   return (
-    <section className="h-svh flex items-center flex-col justify-center p-6 pt-20">
+    <section className="h-svh flex items-center flex-col justify-center p-6 pt-20 text-shadow-sm">
       <img src={dp} className="w-32 h-32 self-start rounded-full shadow-md backdrop-blur-4xl bg-current/2"/>
-      <p className="text-3xl md:text-5xl lg:text-7xl w-screen py-3 px-6 font-semibold">{greet}</p>
-      <p className="text-3xl md:text-5xl lg:text-7xl">I'm <b className="underline decoration-[#bb8866aa] decoration-dashed decoration-2">Piyush Sharma</b>.</p>
-      <p className="text-3xl md:text-5xl lg:text-7xl">{info}</p>
-      <div className="flex items-center justify-evenly w-full mt-4">
+      <p className="text-3xl md:text-5xl lg:text-7xl w-screen my-3 px-6 font-semibold">{greet}</p>
+      <p className="text-3xl md:text-5xl lg:text-7xl">I'm <b className="underline decoration-[#bb8866aa] decoration-dashed decoration-2 text-shadow-md">Piyush Sharma</b>.</p>
+      <p className="text-3xl md:text-5xl lg:text-7xl py-3">{info}</p>
+      <div className="flex items-center justify-evenly w-full ">
         <a href="https://github.com/piyushify" target="_blank">
           <Githubicon className="w-10 h-10 shadow-lg rounded-full"/>
         </a>
