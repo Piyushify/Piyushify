@@ -8,7 +8,8 @@ function Aboutme(){
         <li>
           I'm a BCA student at <br/> <a className="font-bold"><img src="/src/assets/college.webp" className="w-5 inline mr-1"/>Shillong College.</a>
         </li>
-        <li>I love designing clean, modern and responsive websites.</li>
+        <li>
+          I love designing clean, modern and responsive websites.</li>
         <li>
           My current focus is mastering JavaScript while improving my UI/UX design skills and building meaningful projects.
         </li>
